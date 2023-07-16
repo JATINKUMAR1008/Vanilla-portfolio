@@ -1,0 +1,95 @@
+.profile-cont{
+    margin-top: 10%;
+}
+.p-details{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 3%;
+}
+.p-d{
+    display: flex;
+    gap: 3%;
+    align-items: center;
+}
+.p-svg{
+    font-size: 1.3rem;
+}
+.p-text{
+    font-size: 1rem;
+}
+.personal-head{
+    font-weight: 200;
+    font-size: 1.75rem;
+}
+.decorate{
+    cursor: pointer;
+}
+.decorate:hover{
+    text-decoration: underline;
+    color: #4b6cc1;
+}
+.Education{
+    margin-top: 10%;
+}
+.edu-item{
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    margin-top: 4.85%;
+}
+.edu_img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.edu-text{
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+.i-name{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.Certificates{
+    margin-top: 10%;
+}
+.i-link{
+    margin-top: 2%;
+    color: #4b6cc1;
+}
+.i-link:hover{
+    text-decoration: underline;
+    color: #4b6cc1 !important;
+}
+
+@media screen and (max-width: 500px) {
+    .personal-head{
+        font-size: 1.5rem;
+        font-weight: 200;
+    }
+    .Education{
+        margin-top: 14.85%;
+    }
+    .Certificates{
+        margin-top: 14.85%;
+    }
+    .i-name{
+        font-size: .9rem;
+    }   
+    .i-course{
+        font-size: .7rem;
+    }
+    .i-year{
+        font-size: .7rem;
+    }
+    .i-link{
+        font-size: .7rem;
+    }
+    .edu-item{
+        gap: 7%;
+    }
+}

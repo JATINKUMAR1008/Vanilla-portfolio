@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jatin Kumar👦 - Projects</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/project.css" />
+    <script defer src="/scripts/projects.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <!-- header -->
+      <div class="header">
+        <a href="/pages/index.html" class="logo" id="logo">
+          <img
+            src="/images/my_img.webp"
+            alt="JK"
+            class="logo_img"
+            loading="eager"
+          />
+          <span class="logo_text"> JAtin Kumar </span>
+        </a>
+        <!--nav-->
+        <nav class="nav">
+          <a href="/pages/project.html" class="menu_item" id="menu_item_1"
+            >projects</a
+          >
+          <a href="/pages/profile.html" class="menu_item" id="menu_item_2"
+            >profile</a
+          >
+          <a href="/pages/articles.html" class="menu_item" id="menu_item_3"
+            >articles</a
+          >
+          <a href="/pages/contact.html" class="menu_item" id="menu_item_4"
+            >contact</a
+          >
+        </nav>
+        <!--Button-->
+        <button class="nav-btn" onclick="handleClick()" id="nav-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="1em"
+            viewBox="0 0 448 512"
+          >
+            <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="toggle-nav toggle-close" id="toggle-nav">
+        <nav class="nav-toggle hidden" id="items">
+          <a href="/pages/project.html" class="menu_item" id="menu_item_1"
+            >projects</a
+          >
+          <a href="/pages/profile.html" class="menu_item" id="menu_item_2"
+            >profile</a
+          >
+          <a href="/pages/articles.html" class="menu_item" id="menu_item_3"
+            >articles</a
+          >
+          <a href="/pages/contact.html" class="menu_item" id="menu_item_4"
+            >contact</a
+          >
+        </nav>
+      </div>
+
+      <!--Content-->
+      <div class="projects">
+        <div class="project-heading">
+          <h3 class="p-heading">Projects</h3>
+          <span class="project-sub-heading">
+            Some of my spare time tinkering.
+          </span>
+        </div>
+        <div class="seprater"></div>
+        <div class="project-content" id="content-pro"></div>
+      </div>
+      <div class="seprater"></div>
+      <div class="foot">
+        <div class="copy" id="copy">©</div>
+        <div class="built">
+          Built with <span class="built-a">Vanilla</span>.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

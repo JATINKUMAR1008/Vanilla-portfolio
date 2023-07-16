@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jatin Kumar👦</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -12,23 +12,36 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script defer src="/script.js"></script>
+    <script defer src="/scripts/script.js"></script>
   </head>
   <body>
     <div class="wrap">
       <!-- header -->
       <div class="header">
-        <a href="/index.html" class="logo" id="logo">
-          <img src="/images/jatinkumar.webp" alt="JK" class="logo_img" loading="lazy"/>
+        <a href="/pages/index.html" class="logo" id="logo">
+          <img
+            src="/images/my_img.webp"
+            alt="JK"
+            class="logo_img"
+            loading="eager"
+          />
           <span class="logo_text"> JAtin Kumar </span>
         </a>
-        
+
         <!--nav-->
         <nav class="nav">
-          <a href="/project.html" class="menu_item" id="menu_item_1">projects</a>
-          <a href="" class="menu_item" id="menu_item_2">profile</a>
-          <a href="" class="menu_item" id="menu_item_3">articles</a>
-          <a href="" class="menu_item" id="menu_item_4">contact</a>
+          <a href="/pages/project.html" class="menu_item" id="menu_item_1"
+            >projects</a
+          >
+          <a href="/pages/profile.html" class="menu_item" id="menu_item_2"
+            >profile</a
+          >
+          <a href="/pages/articles.html" class="menu_item" id="menu_item_3"
+            >articles</a
+          >
+          <a href="/pages/contact.html" class="menu_item" id="menu_item_4"
+            >contact</a
+          >
         </nav>
         <!--Button-->
         <button class="nav-btn" onclick="handleClick()" id="nav-btn">
@@ -46,45 +59,49 @@
       </div>
       <div class="toggle-nav toggle-close" id="toggle-nav">
         <nav class="nav-toggle hidden" id="items">
-          <a href="" class="menu_item" id="menu_item_1">projects</a>
-          <a href="" class="menu_item" id="menu_item_2">profile</a>
-          <a href="" class="menu_item" id="menu_item_3">articles</a>
-          <a href="" class="menu_item" id="menu_item_4">contact</a>
+          <a href="/pages/project.html" class="menu_item" id="menu_item_1"
+            >projects</a
+          >
+          <a href="/pages/profile.html" class="menu_item" id="menu_item_2"
+            >profile</a
+          >
+          <a href="/pages/articles.html" class="menu_item" id="menu_item_3"
+            >articles</a
+          >
+          <a href="/pages/contact.html" class="menu_item" id="menu_item_4"
+            >contact</a
+          >
         </nav>
       </div>
       <div class="content" id="content">
         <div class="content-box">
           <span class="heading"> 👋 Hi, I'm Jatin. </span>
           <span class="p-cont">
-            I'm a web developer from India. Currently a student
-            at a local University, Chandigarh. In my spare time I enjoy DIY, gaming and
+            I'm a web developer from India. Currently a student at a local
+            University, Chandigarh. In my spare time I enjoy DIY, gaming and
             building my own projects. My preferred tools are Python, Node.js and
-            React.js. 
+            React.js.
           </span>
           <span class="p-cont">
-            I'm on <a href="" class="c-link">Github</a>, <a href="" class="c-link">Twitter</a> and <a href="" class="c-link">Instagram</a>
+            I'm on <a href="" class="c-link">Github</a>,
+            <a href="" class="c-link">Twitter</a> and
+            <a href="" class="c-link">Instagram</a>
           </span>
         </div>
       </div>
       <div class="articles" id="articles">
         <div class="rectent">
-          <h2 class="a-heading">
-            Recent articles
-          </h2>
+          <h2 class="a-heading">Recent articles</h2>
         </div>
         <div class="seprater"></div>
-        <div class="article-content" id="article-content">
-          
-        </div>
+        <div class="article-content" id="article-content"></div>
       </div>
-      
+
       <div class="projects hidden" id="projects">
         <h1>Projects</h1>
       </div>
       <div class="foot">
-        <div class="copy" id="copy">
-          ©
-        </div>
+        <div class="copy" id="copy">©</div>
         <div class="built">
           Built with <span class="built-a">Vanilla</span>.
         </div>
