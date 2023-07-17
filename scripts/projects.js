@@ -46,7 +46,7 @@ let project_list = [
     name: "Netflix Clone",
     desc: "A simple Clone of Netflix website built using React.js and IMwD API for movie database.",
     tech: ["web Design", "React.js"],
-    imgUrl: "/Vanill-portfolio/images/netflix.png",
+    imgUrl: "/Vanilla-portfolio/images/netflix.png",
   },
 ];
 
