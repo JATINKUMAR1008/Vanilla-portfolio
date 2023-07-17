@@ -28,25 +28,25 @@ let project_list = [
     name: "Book Store",
     desc: "A simple book store website built using React.js and Python 'Flask' for API and handles using DevOps.",
     tech: ["web Design", "DevOps", "React.js", "Python"],
-    imgUrl: "/images/mp1.png",
+    imgUrl: "/Vanilla-portfolio/images/mp1.png",
   },
   {
     name: "Music App",
     desc: "A simple Music App website built using React.js and Rapid API for data.",
     tech: ["web Design", "API", "React.js"],
-    imgUrl: "/images/music.png",
+    imgUrl: "/Vanilla-portfolio/images/music.png",
   },
   {
     name: "Todo App",
     desc: "A simple Todo App website built using React.js and Firebase for data storage and authentication.",
     tech: ["web Design", "Firebase", "React.js"],
-    imgUrl: "/images/todo.png",
+    imgUrl: "/Vanilla-portfolio/images/todo.png",
   },
   {
     name: "Netflix Clone",
     desc: "A simple Clone of Netflix website built using React.js and IMwD API for movie database.",
     tech: ["web Design", "React.js"],
-    imgUrl: "/images/netflix.png",
+    imgUrl: "/Vanilla-portfolio/images/netflix.png",
   },
 ];
 
