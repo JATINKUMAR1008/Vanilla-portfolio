@@ -21,12 +21,12 @@ const handleClick = () => {
 
 let list = [
   {
-    title: "Converting a Laravel Inertai App from Mix to Vite",
+    title: "Share insights on harnessing the power of Kubernetes with @kubernetes/client-node!",
     description:
-      "I recently converted my Inertia app from Laravel Mix to using Vite. In this post I'll talk about how it went, as well as some of the gotchas.",
+      "It's a powerful library that enables developers to interact with Kubernetes clusters programmatically using Node.js. Whether you're managing deployments, scaling resources, or querying cluster information, this library provides the tools you need to automate Kubernetes operations.",
     date: "02 September 2022",
     reading_time: "4 minute read",
-    tech: "Laravel",
+    tech: ["Kubernetes"],
   },
   {
     title: "Converting a Laravel Inertai App from Mix to Vite",
@@ -60,7 +60,7 @@ const content = list
     ${value["title"]}
   </h3>
   <div class="tec-btn">
-    ${value["tech"]}
+    ${value["tech"][0]}
   </div>
   <div class="post-date-time">
     <span class="p-date">
